@@ -1,0 +1,10 @@
+//Reversal of string
+
+let cName = "testleaf"
+let length = cName.length
+let rev = ""
+for (i=length-1;i>=0;i--){
+    rev = rev + cName[i]
+}
+
+console.log(rev)
